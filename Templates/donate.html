@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/css/style5.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="slider owl-carousel">
+        <div class="card">
+            <div class="img">
+                <img src="../static/images/person1-01.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="title">
+                    John Denton
+                </div>
+                <p>
+                    My business had accumulated a million dollars in debt. When I made enough money to pay
+                them back, my business partner ran away with all the money. I can't pay for my apartment anymore and
+                have to live on the street.</p>
+                <button class="w3-btn w3-round-xxlarge button">Donate</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="../static/images/person2-01.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="title">
+                    Julia Stevens
+                </div>
+                <p>
+                    It has always been my dream to attend college abroad. Recently, I got accepted into
+                Oxford University but I belong to very poor family. I can't even afford to pay for the plane
+                ticket. Please donate so I can attend college and make my dreams come true. </p>
+                <button class="w3-btn w3-round-xxlarge button">Donate</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="../static/images/person3-01.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="title">
+                    Tony Lanes
+                </div>
+                <p>
+                    After getting married, I though everything was going to be great. However, my wife
+                turned against me. We had a divorce and she legally got control my house and all my property.
+                I don't have anywhere to stay, please donate.</p>
+                <button class="w3-btn w3-round-xxlarge button">Donate</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+
+  </body>
+</html>
+
