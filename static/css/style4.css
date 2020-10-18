@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background: #7f84be;
+}
+
+body{
+    background-image: url("../images/mental.gif");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    height: 600px;
+}

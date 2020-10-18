@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background: #7f84be;
+}
+.container{
+    height: 680px;
+    width: 95%;
+    margin: 50px auto;
+    background: #7f84be;
+}
+#video{
+    height: 640px;
+    width: 800px;
+}
+.button{
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    font-size: 20px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59)!important;
+}
